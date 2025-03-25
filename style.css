@@ -1,0 +1,89 @@
+/* WOODCraaft */
+body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+
+        .container {
+            background: linear-gradient(145deg, #ffffff, #dcdcdc);
+            box-shadow: 10px 10px 20px #aaaaaa, -10px -10px 20px #ffffff;
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            transform: perspective(1000px) rotateX(10deg);
+        }
+        h2 {
+            color: #333;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        input {
+            width: 60%;
+            padding: 10px;
+            margin: 10px;
+        }
+
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(145deg, #28a745, #218838);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2), inset -2px -2px 5px rgba(255, 255, 255, 0.2);
+    margin: 10px; /* বাটনগুলোর মধ্যে গ্যাপ */
+    display: inline-block;
+}
+
+/* লিংক আন্ডারলাইন রিমুভ করা */
+a {
+    text-decoration: none;
+}
+
+button:hover {
+    background: linear-gradient(145deg, #218838, #1e7e34);
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.3), inset -2px -2px 5px rgba(255, 255, 255, 0.3);
+    transform: translateY(-2px);
+}
+
+button:active {
+    box-shadow: inset 3px 3px 8px rgba(0, 0, 0, 0.3);
+    transform: translateY(2px);
+}
+
+.video-container button {
+    display: block; /* প্রতিটি বাটন আলাদা লাইনে থাকবে */
+    width: 80%;
+    margin: 10px auto; /* কেন্দ্রে রাখা */
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 10px); /* দুই পাশে ৫px করে গ্যাপ */
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px 5px 0 0; /* উপরের কোনাগুলো গোল করা */
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.2); /* উপরের দিকে হালকা শ্যাডো */
+}
+
+.footer a {
+    color: #28a745;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #1e7e34;
+}
