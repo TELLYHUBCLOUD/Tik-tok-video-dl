@@ -25,7 +25,7 @@ If you want to **deploy a GitHub Pages site** by **forking a public repository**
 ## **3️⃣ Get Your Website Link**  
 After a few minutes, GitHub will generate a live URL for your site:
 
-## **🔗 live demo link [Tik tok downloader](Oh Bhai)**
+## **🔗 Live demo link [Tik tok downloader](https://sudor2spr.github.io/Tik-tok-video-downloader-page/)**
 
 ---
 
